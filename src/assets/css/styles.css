@@ -1,0 +1,78 @@
+/*  Estilos Generales (General Styles)  */
+body {
+    font-family: Arial, sans-serif; /* Define la fuente predeterminada del texto */
+    margin: 0; /* Elimina los márgenes alrededor de la página */
+    padding: 0; /* Elimina los márgenes internos de la página */
+    background-color: #f8d8a5; /* Establece un color de fondo */
+    color: #352504; /* Define el color del texto */
+}
+
+
+/*  Estilos del Encabezado (Header Styles)  */
+header {
+    background-color: #b7833a; /* Fondo azul oscuro para el encabezado */
+}
+
+
+/*  Contenedor del encabezado (.header-container)  */
+.header-container {
+    display: flex; /* Activa el diseño flexbox */
+    flex-direction: row; /* Organiza los elementos en fila */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espaciado entre los elementos dentro del contenedor */
+}
+
+
+/*  Icono (.icono)  */
+.icono {
+    width: 80px; /* Ancho del icono */
+    height: 80px; /* Alto del icono */
+    border-radius: 50%; /* Hace que el icono sea circular */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor sin distorsionarla */
+    border: 3px solid #a04b26; /* Borde color alrededor del icono */
+}
+
+
+/*  Título (h1)  */
+h1 {
+    margin: 0; /* Elimina el margen predeterminado del encabezado */
+    font-size: 40px; /* Tamaño de la fuente del título */
+}
+
+
+/*  Estilos del Menú (Menu Styles)  */
+.menu {
+    background-color: #5e4318; /* Fondo color del menú */
+    padding: 10px 0; /* Espaciado vertical interno */
+}
+
+
+/*  Lista de menú (.menu ul) */
+.menu ul {
+    list-style: none; /* Elimina los puntos de lista predeterminados */
+    margin: 0; /* Elimina márgenes externos */
+    padding: 0; /* Elimina márgenes internos */
+    display: flex; /* Activa el diseño flexbox para la lista */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+
+/*  Elementos del menú (.menu li)  */
+.menu li {
+    margin: 0 15px; /* Espaciado horizontal entre los elementos del menú */
+}
+
+
+/*  Enlaces del menú (.menu a)  */
+.menu a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #ecb163; /* Color del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    padding: 5px 10px; /* Espaciado interno de los enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Animación para el cambio de color del fondo */
+}
+.menu a:hover {
+    background-color: #928941; /* Color de fondo al pasar el cursor sobre el enlace */
+}
