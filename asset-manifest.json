@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SantaCruzAtizapan-SitioWeb/static/css/main.d9fc97c1.css",
-    "main.js": "/SantaCruzAtizapan-SitioWeb/static/js/main.9f586448.js",
+    "main.js": "/SantaCruzAtizapan-SitioWeb/static/js/main.4ec5e27c.js",
     "static/media/icono.jpg": "/SantaCruzAtizapan-SitioWeb/static/media/icono.e57cfbb9329b94ef8f3f.jpg",
     "index.html": "/SantaCruzAtizapan-SitioWeb/index.html",
     "main.d9fc97c1.css.map": "/SantaCruzAtizapan-SitioWeb/static/css/main.d9fc97c1.css.map",
-    "main.9f586448.js.map": "/SantaCruzAtizapan-SitioWeb/static/js/main.9f586448.js.map"
+    "main.4ec5e27c.js.map": "/SantaCruzAtizapan-SitioWeb/static/js/main.4ec5e27c.js.map"
   },
   "entrypoints": [
     "static/css/main.d9fc97c1.css",
-    "static/js/main.9f586448.js"
+    "static/js/main.4ec5e27c.js"
   ]
 }
