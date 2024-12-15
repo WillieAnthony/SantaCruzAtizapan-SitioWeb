@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting...</title>
+  <script>
+    // Redirigir a index.html preservando la ruta original
+    const path = window.location.pathname;
+    const search = window.location.search;
+    const hash = window.location.hash;
+    window.location.replace(`/SantaCruzAtizapan-SitioWeb/index.html?redirect=${path}${search}${hash}`);
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html>
